@@ -1,17 +1,26 @@
 # Virtual environment
 venv/
 
-# Database
-db/
-
 # Python cache
 __pycache__/
 *.pyc
 
-# Raw personal data (VERY IMPORTANT)
+# Database
+db/
+
+# Personal raw data (DO NOT UPLOAD)
 data/raw/
 data/processed/messages.json
 
-# Optional (if you want to hide more)
+# Processed sensitive data
 finetune_data.jsonl
+
+# Trained model (VERY HEAVY + PRIVATE)
+bhoomi_lora/
+bhoomi_lora.zip
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment files
 .env
