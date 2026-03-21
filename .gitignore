@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Database
+db/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Raw personal data (VERY IMPORTANT)
+data/raw/
+data/processed/messages.json
+
+# Optional (if you want to hide more)
+finetune_data.jsonl
+.env
